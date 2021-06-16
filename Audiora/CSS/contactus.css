@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  width: 1170px;
+  margin: auto;
+}
+body{
+  background-image: url(back.jpg);
+  height: 650px;
+  width: 650px;
+  background-size: cover;
+}
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.nav-area li{
+  display: inline-block;
+}
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+.logo img{
+  float: left;
+}
+.contact-us {
+  width: 300px;
+  padding: 50px;
+  position: relative;
+  top: 5%;
+  left: 50%;
+}
+.title h1 {
+  clear: #535274;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.form,
+.form-items {
+  width: 100%;
+  margin-left: 12%;
+}
+.form-items .input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  color: black;
+  background: #ebeef1;
+}
+.btn {
+  width: 92%;
+  background: #6bcfee;
+  text-align: center;
+  color: black;
+  padding: 12px;
+  cursor: pointer;
+  margin-left: 24%;
+}
+.social-icons {
+  position: absolute;
+  bottom: -25px;
+  left: 70%;
+  transform: translateX(-50%);
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+h4 {
+  position: relative;
+  color: white;
+  margin-top: 30%;
+}
